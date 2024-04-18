@@ -11,7 +11,7 @@ const Card = (
     ) => {
     return (
         <>
-            <div>
+            <div className='cita'>
                 <p>"Mascota: "</p><span>{Mascota}</span>
                 <p>"Dueño: "</p><span>{Dueño}</span>
                 <p>"Fecha: "</p><span>{Fecha}</span>

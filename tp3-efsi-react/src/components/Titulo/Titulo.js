@@ -1,17 +1,12 @@
 
 import './Titulo.css';
 
-const Titulo = (
-    { 
-        texto = 'Este es el titulo por default',
-        clase = 'titulo'
-    }
-) => {
+const Titulo = () => {
 
     
     return (
         <>
-            <h1 className={clase}>{texto}</h1>
+            <h1>Administrador de pacientes</h1>
         </>
     );
 }
