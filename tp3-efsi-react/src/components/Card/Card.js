@@ -12,12 +12,12 @@ const Card = (
     return (
         <>
             <div className='cita'>
-                <p>"Mascota: "</p><span>{Mascota}</span>
-                <p>"Dueño: "</p><span>{Dueño}</span>
-                <p>"Fecha: "</p><span>{Fecha}</span>
-                <p>"Hora: "</p><span>{Hora}</span>
-                <p>"Sintomas: "</p><span>{Sintomas}</span>
-                <button class="eliminar">Eliminar ×</button>
+                <p>Mascota: <span>{Mascota}</span></p>
+                <p>Dueño: <span>{Dueño}</span></p>
+                <p>Fecha: <span>{Fecha}</span></p>
+                <p>Hora: <span>{Hora}</span></p>
+                <p>Sintomas: <span>{Sintomas}</span></p>
+                <button class="button elimnar u-full-width">Eliminar ×</button>
             </div>
         </>
     );

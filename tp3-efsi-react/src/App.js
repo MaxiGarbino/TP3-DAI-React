@@ -6,17 +6,15 @@ import './App.css';
 
 function App() {
   
- 
-  
-
-  
   return (
     <>
-    <div id='root'>
       {<Titulo/>}
-      <Formulario></Formulario>
-      <Cita></Cita>
-    </div>
+      <div class="container">
+        <div class="row">
+        <Formulario></Formulario>
+        <Cita></Cita>
+        </div>
+      </div>
     </>
   );
 }

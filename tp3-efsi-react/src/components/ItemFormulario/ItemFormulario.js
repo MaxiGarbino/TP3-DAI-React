@@ -4,7 +4,7 @@ const ItemFormulario = (
     {
         texto = "default",
         placeHolder = "ingrese texto aqui",
-        clase = "clase",
+        clase = "u-full-width",
         type = "type"
     }
     

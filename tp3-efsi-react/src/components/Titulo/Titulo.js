@@ -6,6 +6,7 @@ const Titulo = () => {
     
     return (
         <>
+            
             <h1>Administrador de pacientes</h1>
         </>
     );
